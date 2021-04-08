@@ -5,7 +5,7 @@ const _ = require('underscore');
 
 let DomoModel = {};
 
-// mongoose.Types.ObjectID is a function that convertex string ID to real mongo ID
+// mongoose.Types.ObjectID is a function that converts string ID to real mongo ID
 const convertId = mongoose.Types.ObjectId;
 const setName = (name) => _.escape(name).trim();
 
