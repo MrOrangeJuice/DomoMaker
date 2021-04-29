@@ -118,7 +118,7 @@ var createLoginWindow = function createLoginWindow(csrf) {
 };
 
 var createSignupWindow = function createSignupWindow(csrf) {
-  ReactDOM.render( /*#__PURE__*/React.createElement(LoginWindow, {
+  ReactDOM.render( /*#__PURE__*/React.createElement(SignupWindow, {
     csrf: csrf
   }), document.querySelector("#content"));
 };

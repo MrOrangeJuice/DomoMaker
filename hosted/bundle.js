@@ -32,7 +32,7 @@ var DomoForm = function DomoForm(props) {
       type: "text",
       name: "name",
       placeholder: "Domo Name"
-    }), /*#__PURE__*/React.createElement("input", {
+    }), /*#__PURE__*/React.createElement("label", {
       htmlFor: "age"
     }, "Age: "), /*#__PURE__*/React.createElement("input", {
       id: "domoAge",
